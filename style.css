@@ -1,0 +1,80 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size:cover;
+    background-image: url("/4709944\ -\ Copy.jpg");
+  }
+  
+  .todo-container {
+    margin-top: 50px;
+    text-align: center;
+    background-image: url("./ironman\ -\ Copy.jpg");
+    background-size: cover;
+    border: 5px solid;
+    width: 550px;
+    height:max-content;
+    padding: 20px;
+    border-radius:8px; 
+  }
+  h1{
+    color:gold; 
+    cursor: pointer;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    margin-left:10px;
+    width: fit-content;
+ }
+
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color:rgba(254, 6, 6, 0.677);
+    border-radius: 4px;
+    color: white;
+    height: max-content;
+  }
+  
+  li button {
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color:black;
+    border: 1px solid gold;
+    color: #f0bf0f;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color:gold;
+    background-color: #0e0e0d;
+  }
+  
+  button{
+    cursor: pointer;
+    border-radius:5px;
+    background-color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
